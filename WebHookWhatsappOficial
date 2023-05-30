@@ -1,0 +1,104 @@
+<?php 
+ 
+#
+#
+error_reporting(E_ERROR|E_WARNING);
+ini_set('display_errors', '1');
+ 
+ 
+
+//TOQUEN QUE QUERRAMOS PONER 
+$token = 'abc123';
+
+
+header('Access-Control-Allow-Origin: *');
+
+ 
+
+
+
+//RETO QUE RECIBIREMOS DE FACEBOOK
+$palabraReto = $_GET['hub_challenge'];
+//TOQUEN DE VERIFICACION QUE RECIBIREMOS DE FACEBOOK
+$tokenVerificacion = $_GET['hub_verify_token'];
+//SI EL TOKEN QUE GENERAMOS ES EL MISMO QUE NOS ENVIA FACEBOOK RETORNAMOS EL RETO PARA VALIDAR QUE SOMOS NOSOTROS
+
+if ($token == $tokenVerificacion) {
+    echo $palabraReto;
+    exit;
+}
+ 
+//LEEMOS LOS DATOS ENVIADOS POR WHATSAPP
+$respuesta_json = file_get_contents("php://input");
+//GUARDAMOS  
+file_put_contents("logs/recibido_".time().".txt", $respuesta_json);
+
+
+
+
+
+//CONVERTIMOS EL JSON EN ARRAY DE PHP
+$respuesta = json_decode($respuesta_json, true);
+//GUARDAMOS  
+ 
+
+ 
+
+//EXTRAEMOS INFO DEL ARRAY DE LA RESPUESTA
+#
+#
+$id_mensaje=$respuesta['entry'][0]['id'];
+#
+#
+$fono_emisor=$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['from'];
+#
+#
+$id_emisor=$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['id'];
+#
+#
+$timestamp=$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['timestamp'];
+#
+#
+$mensaje=utf8_decode($respuesta['entry'][0]['changes'][0]['value']['messages'][0]['text']['body']);
+#
+#
+$mensaje_recibido_bruto=$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['text']['body'];
+#
+#
+$tipo_mensaje=$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['type'];
+#
+#
+##################### AUDIO VOZ
+#
+#
+$audio_tipo=$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['audio']['mime_type'];
+#
+#
+$audio_sha256=$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['audio']['sha256'];
+#
+#
+$audio_id=$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['audio']['id']; // con este hago la peticion de la url
+#
+#
+$audio_voice=$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['audio']['voice'];
+#
+#
+#
+#
+##################### IMAGEN
+#
+#
+$imagen_tipo=$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['image']['mime_type'];
+#
+#
+$imagen_sha256=$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['image']['sha256'];
+#
+#
+$imagen_id=$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['image']['id']; // con este hago la peticion de la url
+#
+#
+$imagen_voice=$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['image']['voice'];
+#
+#
+  
+?>
