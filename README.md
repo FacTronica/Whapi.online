@@ -30,7 +30,7 @@ A continuación se detalla el procedimiento a seguir para realizar la integraci�
 
 ## Plataformas y Navegadores Compatibles:
 
-La Api whapi.online esta desarrollada para que pueda ser compatible eintegrada con la mayoría de las plataformas y navegadores más utiizados.
+La Api whapi.online esta desarrollada para que pueda ser compatible con la mayoría de las plataformas y navegadores más utiizados.
 
 **Leyenda**
 -   ![](https://scanapp.org/assets/github_assets/done.png) Totalmente Compatible 
@@ -55,37 +55,18 @@ La Api whapi.online esta desarrollada para que pueda ser compatible eintegrada c
 |![](https://scanapp.org/assets/github_assets/done.png)| ![](https://scanapp.org/assets/github_assets/done.png)* | ![](https://scanapp.org/assets/github_assets/done.png)* | ![](https://scanapp.org/assets/github_assets/partial.png) 
 
 
-> \* Supported for IOS versions >= 15.1
 >
-> Before version 15.1, Webkit for IOS is used by Chrome, Firefox, and other browsers in IOS and they do not have webcam permissions yet. There is an ongoing issue on fixing the support for iOS - [issue/14](https://github.com/mebjas/html5-qrcode/issues/14)
+> Todas las actualizaciones serán informadas en este repositorio git.
 
-### Framework support
-The library can be easily used with several other frameworks, I have been adding examples for a few of them and would continue to add more.
+### Lenguajes Soportados:
+A continuación se entrega un listado de ejemplos en distintos lenguajes para realizar la integración con whapi.online
 
-|<img src="https://scanapp.org/assets/github_assets/html5.png" width="30px" />| <img src="https://scanapp.org/assets/github_assets/vuejs.png" width="30px" />|<img src="https://scanapp.org/assets/github_assets/electron.png" width="30px" /> | <img src="https://scanapp.org/assets/github_assets/react.svg" width="30px" /> | <img src="https://seeklogo.com/images/L/lit-logo-6B43868CDC-seeklogo.com.png" width="30px" />
-| -------- | -------- | -------- | -------- | -------- |
-| [Html5](./examples/html5) | [VueJs](./examples/vuejs) | [ElectronJs](./examples/electron) | [React](https://github.com/scanapp-org/html5-qrcode-react) | [Lit](./examples/lit)
-
-### Supported Code formats
-Code scanning is dependent on [Zxing-js](https://github.com/zxing-js/library) library. We will be working on top of it to add support for more types of code scanning. If you feel a certain type of code would be helpful to have, please file a feature request.
-
-| Code | Example |
+| Lenguaje | Ejemplo |
 | ---- | ----- |
-| QR Code | <img src="https://scanapp.org/assets/github_assets/qr-code.png" width="200px" /> |
-| AZTEC | <img src="https://scanapp.org/assets/github_assets/aztec.png" /> |
-| CODE_39|  <img src="https://scanapp.org/assets/github_assets/code_39.gif" /> |
-| CODE_93| <img src="https://scanapp.org/assets/github_assets/code_93.gif" />|
-| CODE_128| <img src="https://scanapp.org/assets/github_assets/code_128.gif" />|
-| ITF| <img src="https://scanapp.org/assets/github_assets/itf.png" />|
-| EAN_13|<img src="https://scanapp.org/assets/github_assets/ean13.jpeg" /> |
-| EAN_8| <img src="https://scanapp.org/assets/github_assets/ean8.jpeg" />|
-| PDF_417| <img src="https://scanapp.org/assets/github_assets/pdf417.png" />|
-| UPC_A| <img src="https://scanapp.org/assets/github_assets/upca.jpeg" />|
-| UPC_E| <img src="https://scanapp.org/assets/github_assets/upce.jpeg" />|
-| DATA_MATRIX|<img src="https://scanapp.org/assets/github_assets/datamatrix.png" /> |
-| MAXICODE*| <img src="https://scanapp.org/assets/github_assets/maxicode.gif" /> |
-| RSS_14*| <img src="https://scanapp.org/assets/github_assets/rss14.gif" />|
-| RSS_EXPANDED*|<img src="https://scanapp.org/assets/github_assets/rssexpanded.gif" /> |
+| Php | <img src="https://scanapp.org/assets/github_assets/qr-code.png" width="200px" /> |
+| JavaScript | <img src="https://scanapp.org/assets/github_assets/aztec.png" /> |
+| Html|  <img src="https://scanapp.org/assets/github_assets/code_39.gif" /> |
+ 
 
 > *Formats are not supported by our experimental integration with native
 > BarcodeDetector API integration ([Read more](/experimental.md)).
