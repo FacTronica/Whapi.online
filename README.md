@@ -63,58 +63,17 @@ A continuación se entrega un listado de ejemplos en distintos lenguajes para re
 
 | Lenguaje | Ejemplo |
 | ---- | ----- |
-| Php | <img src="https://scanapp.org/assets/github_assets/qr-code.png" width="200px" /> |
-| JavaScript | <img src="https://scanapp.org/assets/github_assets/aztec.png" /> |
-| Html|  <img src="https://scanapp.org/assets/github_assets/code_39.gif" /> |
+| Php | <a href="https://github.com/FacTronica/Whapi.online/blob/main/cliente_php.php" target="_blank"> |
+| JavaScript | <a href="https://github.com/FacTronica/Whapi.online/blob/main/cliente_javascript.php" target="_blank"> |
+| Html|  <a href="https://github.com/FacTronica/Whapi.online/blob/main/cliente_html.php" target="_blank"> |
  
 
-> *Formats are not supported by our experimental integration with native
-> BarcodeDetector API integration ([Read more](/experimental.md)).
+> *Importante: La integración se puede realizar con cualquier software que permita crear y enviar archivos de texto plano o datos json.
 
-## Description - [View Demo](https://blog.minhazav.dev/research/html5-qrcode.html)
+## Ejemplo 01: - [Ver Demo JavaScript](https://whapi.online/api/cliente_javascript.php))
 
-> See an end to end scanner experience at [scanapp.org](https://scanapp.org).
+> En este ejemplo en línea podrá enviar mensajes con tan solo llenar los datos requeridos.
 
-This is a cross-platform JavaScript library to integrate QR code, bar codes & a few other types of code scanning capabilities to your applications running on HTML5 compatible browser.
+ Esta aplicación se está actualizando a diario, cualquier requerimiento se agradece que puedan ingresar el issue.
 
-Supports:
--   Querying camera on the device (with user permissions)
--   Rendering live camera feed, with easy to use user interface for scanning
--   Supports scanning a different kind of QR codes, bar codes and other formats
--   Supports selecting image files from the device for scanning codes
-
-## How to use
-
-Find detailed guidelines on how to use this library on [scanapp.org/html5-qrcode-docs](https://scanapp.org/html5-qrcode-docs/docs/intro).
-
-## Demo
-<img src="https://scanapp.org/assets/github_assets/qr-code.png" width="200px"><br />
-_Scan this image or visit [blog.minhazav.dev/research/html5-qrcode.html](https://blog.minhazav.dev/research/html5-qrcode.html)_
-
-### For more information
-Check these articles on how to use this library:
-<!-- TODO(mebjas) Mirgate this link to blog.minhazav.dev -->
--   [QR and barcode scanner using HTML and JavaScript](https://minhazav.medium.com/qr-and-barcode-scanner-using-html-and-javascript-2cdc937f793d)
--   [HTML5 QR Code scanning — launched v1.0.1 without jQuery dependency and refactored Promise based APIs](https://blog.minhazav.dev/HTML5-QR-Code-scanning-launched-v1.0.1/).
--   [HTML5 QR Code scanning with JavaScript — Support for scanning the local file and using default camera added (v1.0.5)](https://blog.minhazav.dev/HTML5-QR-Code-scanning-support-for-local-file-and-default-camera/)
-
-## Screenshots
-![screenshot](https://scanapp.org/assets/github_assets/screen.gif)<br />
-_Figure: Screenshot from Google Chrome running on MacBook Pro_
-
-## Documentation
-Find the full API documentation at [scanapp.org/html5-qrcode-docs/docs/apis](https://scanapp.org/html5-qrcode-docs/docs/apis).
-
-### Extra optional `configuration` in `start()` method
-Configuration object that can be used to configure both the scanning behavior and the user interface (UI). Most of the fields have default properties that will be used unless a different value is provided. If you do not want to override anything, you can just pass in an empty object `{}`.
-
-#### `fps` — Integer, Example = 10
-A.K.A frame per second, the default value for this is 2, but it can be increased to get faster scanning. Increasing too high value could affect performance. Value `>1000` will simply fail.
-
-#### `qrbox` — `QrDimensions` or `QrDimensionFunction` (Optional), Example = `{ width: 250, height: 250 }`
-Use this property to limit the region of the viewfinder you want to use for scanning. The rest of the viewfinder would be shaded. For example, by passing config `{ qrbox : { width: 250, height: 250 } }`, the screen will look like:
-
-<img src="https://scanapp.org/assets/github_assets/screen.gif" />
-
-This can be used to set a rectangular scanning area with config like:
  
