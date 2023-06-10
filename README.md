@@ -63,9 +63,9 @@ A continuación se entrega un listado de ejemplos en distintos lenguajes para re
 
 | Lenguaje | Ejemplo |
 | ---- | ----- |
-| Php | <a href="https://github.com/FacTronica/Whapi.online/blob/main/cliente_php.php" target="_blank"> |
-| JavaScript | (https://github.com/FacTronica/Whapi.online/blob/main/cliente_javascript.php) |
-| Html|  <a href="https://github.com/FacTronica/Whapi.online/blob/main/cliente_html.php" target="_blank"> |
+| Php | https://github.com/FacTronica/Whapi.online/blob/main/cliente_php.php |
+| JavaScript | https://github.com/FacTronica/Whapi.online/blob/main/cliente_javascript.php |
+| Html|  https://github.com/FacTronica/Whapi.online/blob/main/cliente_html.php |
  
 
 > *Importante: La integración se puede realizar con cualquier software que permita crear y enviar archivos de texto plano o datos json.
