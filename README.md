@@ -5,11 +5,11 @@
 Permite la Integración con cualquier tipo de sistema, la comunicación se realiza por datos Json o archivos de texto plano.
 
 ## Características:
--   🔲 Compatibilidad: Windows, Linux y Mac.
+-   🔲 **Compatibilidad:** Windows, Linux y Mac.
 
--   🖥 Integración: Archivos de Texto plano o Datos Json.
+-   🖥 **Integración:** Archivos de Texto plano o Datos Json.
 
--   🌐 Soporte: Asistencia Remota 24x7x365.
+-   🌐 **Soporte:** Asistencia Remota 24x7x365.
 
 
  
