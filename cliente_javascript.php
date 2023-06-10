@@ -144,7 +144,7 @@ function EnviarWhatsApp(){
 🤩🥸😎🤓
 🧐🤨🤪😜
 
-Somos Whapi.OnLine
+Somos Whapi.OnLine!
 <?php echo "Time=".time(); ?>">
 <br>
 <h3>TIPO ADJUNTO ( vacio - PDF - PNG ) :</h3>
