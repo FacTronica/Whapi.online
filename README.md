@@ -18,11 +18,11 @@ La comunicación entre el Servidor de Whatsapp se realiza a traves de Datos Json
 <img src="https://whapi.online/assets/img/demo_mensaje_con_imagen.jpg"   />
 
 
-## Documentation
+## Documentación
 
-The documentation for this project has been moved to [scanapp.org/html5-qrcode-docs](https://scanapp.org/html5-qrcode-docs/).
+A continuación se detalla el procedimiento a seguir para realizar la integración.
 
--   [Getting started](https://scanapp.org/html5-qrcode-docs/docs/intro)
+-   [01.-Registrar en Whapi.Online]([https://whapi.online](https://whapi.online/#registro))
 -   [Supported frameworks](https://scanapp.org/html5-qrcode-docs/docs/supported_frameworks)
 -   [Supported 1D and 2D Code formats](https://scanapp.org/html5-qrcode-docs/docs/supported_code_formats)
 -   [Detailed API documentation](https://scanapp.org/html5-qrcode-docs/docs/apis)
