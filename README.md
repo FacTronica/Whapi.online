@@ -64,7 +64,7 @@ A continuación se entrega un listado de ejemplos en distintos lenguajes para re
 | Lenguaje | Ejemplo |
 | ---- | ----- |
 | Php | <a href="https://github.com/FacTronica/Whapi.online/blob/main/cliente_php.php" target="_blank"> |
-| JavaScript | <a href="https://github.com/FacTronica/Whapi.online/blob/main/cliente_javascript.php" target="_blank"> |
+| JavaScript | (https://github.com/FacTronica/Whapi.online/blob/main/cliente_javascript.php) |
 | Html|  <a href="https://github.com/FacTronica/Whapi.online/blob/main/cliente_html.php" target="_blank"> |
  
 
