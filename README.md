@@ -13,5 +13,5 @@ La comunicación entre el Servidor de Whatsapp se realiza a traves de Datos Json
 -   🌐 **Soporte:** Asistencia Remota 24x7x365.
 
 **Ejemplo de Mensaje Enviado por Whapi.OnLine**
-<img src="demo_mensaje_con_imagen.jpg"   />
+<img src="https://whapi.online/assets/img/demo_mensaje_con_imagen.jpg"   />
  
