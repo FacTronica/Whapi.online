@@ -2,7 +2,8 @@
 
 ## API para Integración WhatsApp con Sistema Propio.
 
-Permite la Integración con cualquier tipo de sistema, la comunicación se realiza por datos Json o archivos de texto plano.
+API Diseñada para que el programador pueda realizar una rápida Integración de Whatsapp con cualquier tipo de Software Propio.
+La comunicación entre el Servidor de Whatsapp se realiza por Envio de; Datos Json o Archivos de Texto.
 
 ## Características:
 -   🔲 **Compatibilidad:** Windows, Linux y Mac.
