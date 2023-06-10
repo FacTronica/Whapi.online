@@ -23,17 +23,18 @@ La comunicación entre el Servidor de Whatsapp se realiza a traves de Datos Json
 A continuación se detalla el procedimiento a seguir para realizar la integración.
 
 -   [01.-Registrar en Whapi.Online](https://whapi.online/#registro)
--   [Supported frameworks](https://scanapp.org/html5-qrcode-docs/docs/supported_frameworks)
--   [Supported 1D and 2D Code formats](https://scanapp.org/html5-qrcode-docs/docs/supported_code_formats)
--   [Detailed API documentation](https://scanapp.org/html5-qrcode-docs/docs/apis)
+-   [02.-Crear Línea de WhatsApp]
+-   [03.-Vincular Línea de WhatsApp]
+-   [04.-Conectar Línea de WhatsApp]
+-   [05.-Integra Software Propio con Api Whapi.OnLine]
 
-## Supported platforms
+## Plataformas y Navegadores Compatibles:
 
-We are working continuously on adding support for more and more platforms. If you find a platform or a browser where the library is not working, please feel free to file an issue. Check the [demo link](https://blog.minhazav.dev/research/html5-qrcode.html) to test it out.
+La Api whapi.online esta desarrollada para que pueda ser compatible eintegrada con la mayoría de las plataformas y navegadores más utiizados.
 
-**Legends**
--   ![](https://scanapp.org/assets/github_assets/done.png) Means full support — inline webcam and file based 
--   ![](https://scanapp.org/assets/github_assets/partial.png) Means partial support — only file based, webcam in progress
+**Leyenda**
+-   ![](https://scanapp.org/assets/github_assets/done.png) Totalmente Compatible 
+-   ![](https://scanapp.org/assets/github_assets/partial.png) Parcialmente Compatible
 
 ### PC / Mac
 
