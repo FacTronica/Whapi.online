@@ -5,10 +5,11 @@
 error_reporting(E_ERROR|E_WARNING);
 ini_set('display_errors', '1');
 #
+#
 #********************************************************************
 # >>>>>>>>> INICIO ZONA PARA CAMBIAR PARÁMETROS <<<<<<<<<<<<<<<<<<<<<
 #
-# API KEY DE ACCESO A LA API ( AL CREAR LINEA EN WHAPI LE ENTREGA EL PUERTO )
+# API KEY DE ACCESO A LA API ( AL CREAR LINEA EN WHAPI LE ENTREGA APIKEY TOKEN )
 $apikey="AQUI-VA-EL-TOKEN-APIKEY-DE-LA-LINEA-WHATSAPP";
 #
 # FONO EMISOR ( FONO QUE ENVIA EL WHATSAPP )
