@@ -14,6 +14,17 @@ pm2 start archivo.js
 pm2 list
 ````
 
+### Monitorear Logs (todos servicios)
+````
+pm2 log
+pm2 log numproceso
+````
+
+### Monitorear Logs (servicio específico)
+````
+pm2 log numproceso
+````
+
 ### Detener Servicio
 ````
 pm2 stop numproceso
